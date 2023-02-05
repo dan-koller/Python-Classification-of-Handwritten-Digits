@@ -4,7 +4,7 @@ This project explores the main classification algorithms to train the best possi
 
 ## Requirements
 
--   Python 3
+-   Python 3.9 (to be compatible with the requirements)
 -   Packages from `requirements.txt`
 
 ## Installation
