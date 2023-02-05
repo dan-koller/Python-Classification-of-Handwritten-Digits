@@ -12,7 +12,7 @@ from warnings import simplefilter
 simplefilter(action='ignore', category=FutureWarning)
 
 
-def normalize_data(X_train: pd.DataFrame, X_test: pd.DataFrame):
+def normalize_data(X_train: pd.DataFrame, X_test: pd.DataFrame) -> tuple:
     # Normalize the data
     normalizer = Normalizer()
     x_train_norm = normalizer.fit_transform(X_train)
@@ -24,7 +24,7 @@ def fit_predict_model(model: object,
                       X_train: pd.DataFrame,
                       y_train: pd.DataFrame,
                       X_test: pd.DataFrame,
-                      y_test: pd.DataFrame):
+                      y_test: pd.DataFrame) -> tuple:
     # Fit the model and return the accuracy score
     model.fit(X_train, y_train)
     pred = model.predict(X_test)
