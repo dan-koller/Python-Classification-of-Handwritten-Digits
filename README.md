@@ -2,6 +2,8 @@
 
 This project explores the main classification algorithms to train the best possible model for the classification of handwritten digits. The dataset used is the Keras digit dataset, which contains 60,000 training images and 10,000 test images of handwritten digits. However, for computational reasons, only 10% of the training images and 10% of the test images are used.
 
+The idea is based on a [JetBrains Academy](https://hyperskill.org/projects/205) project.
+
 ## Requirements
 
 -   Python 3.9 (to be compatible with the requirements)
