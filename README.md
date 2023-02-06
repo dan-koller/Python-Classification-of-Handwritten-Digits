@@ -1,4 +1,4 @@
-# Python-Digit-Classification
+# Python Classification of Handwritten Digits
 
 This project explores the main classification algorithms to train the best possible model for the classification of handwritten digits. The dataset used is the Keras digit dataset, which contains 60,000 training images and 10,000 test images of handwritten digits. However, for computational reasons, only 10% of the training images and 10% of the test images are used.
 
@@ -12,7 +12,7 @@ This project explores the main classification algorithms to train the best possi
 1.  Clone the repository
 
 ```bash
-git clone https://github.com/dan-koller/Python-Digit-Classification
+git clone https://github.com/dan-koller/Python-Classification-of-Handwritten-Digits
 ```
 
 2. Create a virtual environment\*
